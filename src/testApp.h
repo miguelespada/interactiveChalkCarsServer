@@ -45,9 +45,6 @@ class testApp : public ofBaseApp, public ofxMidiListener{
     bool bShow, bInfo;
     bool bFullScreen;
     
-  
-    
-    
     ofxBox2d box2d;
     Car cars[N_CARS];
     ofPoint outSide[4];
@@ -55,7 +52,6 @@ class testApp : public ofBaseApp, public ofxMidiListener{
     bool isOut(int x, int y);
     bool isOutBounds(int x, int y);
 
-    
 	void newMidiMessage(ofxMidiMessage& eventArgs);
 	stringstream text;
 	ofxMidiIn midiIn;
