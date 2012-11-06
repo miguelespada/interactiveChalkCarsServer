@@ -96,7 +96,7 @@ void testApp::draw(){
         sprintf(reportStr, "[T] Threshold on/off [b] Brightness %.2f ", brightness);
         ofDrawBitmapString(reportStr, 20, 55);
         sprintf(reportStr, "[c] Contrast %.f [w] Fade Weight %.2f", contrast, weight);
-        ofDrawBitmapString(reportStr, 20, 70);
+        ofDrawBitmapString(reportStr, 20, 70);  
     }
 }
 
