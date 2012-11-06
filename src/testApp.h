@@ -40,7 +40,25 @@ class testApp : public ofBaseApp{
     
         ofTexture tex;
     
+<<<<<<< HEAD
         ofxSyphonServer individualTextureSyphonServer;
+=======
+  
+    
+    
+    ofxBox2d box2d;
+    Car cars[N_CARS];
+    ofPoint outSide[4];
+    void drawOutside();
+    bool isOut(int x, int y);
+    bool isOutBounds(int x, int y);
+
+    
+	void newMidiMessage(ofxMidiMessage& eventArgs);
+	stringstream text;
+	ofxMidiIn midiIn;
+	ofxMidiMessage midiMessage;
+>>>>>>> parent of e45c8b2... KIKK festival
     
     
     int  threshold;
