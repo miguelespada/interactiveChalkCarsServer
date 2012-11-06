@@ -1,0 +1,28 @@
+<bINFO>1</bINFO>
+<bSHOW>0</bSHOW>
+<CAR>
+    <dACC>0.15</dACC>
+    <dDEC>0.25</dDEC>
+    <dROT>5</dROT>
+    <MAXV>7</MAXV>
+    <MINV>-1</MINV>
+    <OUTV>1</OUTV>
+</CAR>
+<OUTSIDE>
+    <PT>
+        <X>28</X>
+        <Y>32</Y>
+    </PT>
+    <PT>
+        <X>1010</X>
+        <Y>25</Y>
+    </PT>
+    <PT>
+        <X>981</X>
+        <Y>703</Y>
+    </PT>
+    <PT>
+        <X>38</X>
+        <Y>710</Y>
+    </PT>
+</OUTSIDE>
